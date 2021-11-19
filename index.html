@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Rickroll'd Website</title>
+	<link rel="icon" href="img/rick face.png">
+</head>
+
+<style type="text/css">
+	
+	html{
+		font-family:,Helvetica;
+	}
+	h1 {
+		font-size: 68px;
+	}
+	h2 {
+		margin-bottom: 7px;
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 56px;
+	}
+	h4 {
+    	font-size: 72px;
+	}
+	h1, h2, h3, h4, h5 {
+		text-shadow: 2px 2px 4px #999;
+		text-align: center;
+		margin: auto;
+		color: #333;
+	}
+	button {
+	    padding: 10px;
+	    padding-bottom: 2px;
+	    background-color: #ff1493;
+	    color: #fff;
+	    text-shadow: none;
+	    box-shadow: 1px 0 1px #be3077, 0 1px 1px #ff69b4, 2px 1px 1px #be3077, 1px 2px 1px #ff69b4, 3px 2px 1px #be3077, 2px 3px 1px #ff69b4, 4px 3px 1px #be3077, 3px 4px 1px #ff69b4, 5px 4px 1px #be3077, 4px 5px 1px #ff69b4, 6px 5px 1px #be3077;
+	    cursor: pointer;
+	    display: inline-block;
+	    margin-top: 11px;
+	    box-sizing: border-box;
+	    position: relative;
+	    user-select: none;
+	    border: 0;
+	    font-size: 45px;
+	    font-weight: 400;
+	    font-family: "Josefin Slab",cursive;
+	    outline: 0;
+	    transition: transform .2s;
+
+	}
+	button:hover {
+		cursor: pointer;
+		transform: scale(1.3);
+	}
+	h5 {
+	    font-size: 45px;
+	    display: block;
+	    margin-block-start: 1.67em;
+		margin-block-end: 1.67em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		font-weight: bold;
+	}
+
+
+</style>
+
+<body>
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<h1>TAKE ME</h1>
+	<h2>TO ANOTHER</h2>
+	<h3>RICKROLL'D</h3>
+	<h4>WEBSITE</h4>
+
+	<center>
+		<h5>
+			→
+			<button id="button"  onclick="myFunction()">PLEASE</button>
+			←
+		</h5>
+		
+	</center>
+	
+
+	
+</body>
+
+<script type="text/javascript">
+
+	function myFunction() {
+
+		var picnumber = Math.floor((Math.random() * 4) + 1);
+
+		if (picnumber == 1){
+			var a = document.getElementById('log');
+			location.href='https://adri1-the-best.github.io/flappy-bird/'; 
+		} else {
+			if (picnumber == 2){
+				var a = document.getElementById('log');
+				location.href='https://adri1-the-best.github.io/2048/';
+			} 
+			else {
+			if (picnumber == 3){
+				var a = document.getElementById('log');
+				location.href='https://adri1-the-best.github.io/T-Rex-Game/';
+			}
+			else {
+				var a = document.getElementById('log');
+				location.href='https://adri1-the-best.github.io/Snake-Game/';
+			}
+		}}
+
+	}
+
+</script>
+
+</html>
